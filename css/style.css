@@ -1,3 +1,16 @@
 .introducing {
     background-color: #FFCE00;
 }
+
+.header {
+    display: flex;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
