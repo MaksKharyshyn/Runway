@@ -1,3 +1,12 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
 .introducing {
     background-color: #FFCE00;
 }
@@ -52,13 +61,40 @@
     border: none;
 }
 
+/* impossible styles */
+
+.impossible {
+    display: flex;
+    padding: 150px 48px;
+}
+
+.left_title {
+    font-family: Roboto;
+    font-size: 124px;
+    font-weight: 400;
+    line-height: 123.84px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.left_text {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.left_btn {
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    padding: 14px 20px;
+}
 
 
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
+
+
+
